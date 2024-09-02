@@ -8,7 +8,7 @@ interface CustomButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<CustomButtonProps> = ({ text, ...props }) => {
   return (
     <button
-      className="py-3 md:py-3.5 px-4 md:px-5 rounded-xl text-sm bg-custom-gradient font-normal text-white"
+      className={`py-3 md:py-3.5 px-4 md:px-5 rounded-xl text-sm bg-custom-gradient font-normal text-white ${props.className}`}
       style={MontserratFont.style}
       {...props}
     >

@@ -8,10 +8,10 @@ import Image4 from "@/assets/images/image4.png";
 import Image5 from "@/assets/images/image5.png";
 const Body = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 [&_p]:text-[#74757A] [&_p]:text-lg">
       <div id="section1">
         <TextHeading text={"What is a Project ?"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           In Acedboard, a project is the second level in the organizational
           unit. A project is a group of tasks and or people working together for
           a specific goal, outcome within a set time. Each person has their own
@@ -27,7 +27,7 @@ const Body = () => {
 
       <div id="section2">
         <TextHeading text={"Creating a New Project"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Once you have selected the three dots, select the new project option
           to get started.
         </p>
@@ -36,13 +36,13 @@ const Body = () => {
 
       <div id="section3">
         <TextHeading text={"Naming your projects and Select View Modes"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           After choosing the 'New Project' option, proceed to define the project
           name. Optionally, you can provide additional details by inputting a
           description for more context.
         </p>
         <Image src={Image2} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           On inputting the project name and description, you can go on to select
           your desired view from the array of view modes available to see
           different details of your project. You need to select at least one
@@ -58,7 +58,7 @@ const Body = () => {
 
       <div id="section4">
         <TextHeading text={"Simple project Operations"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           You have the flexibility to execute basic actions such as renaming
           your project, copying the project link for easy sharing with team
           members or relevant parties who may not be directly involved in the
@@ -69,7 +69,7 @@ const Body = () => {
 
       <div id="section5">
         <TextHeading text={"Adding members to a project"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           To add members to your projects, click on the three dots next to the
           project name and select 'Add People.' Choose individuals from the list
           within your workspace to include them in the project.
@@ -83,7 +83,7 @@ const Body = () => {
 
       <div id="section6">
         <TextHeading text={"Archiving a project."} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           After successfully finishing your project, you have the option to
           archive closed projects for record-keeping or store them securely in
           the cloud for future reference. This helps in organizing your
@@ -103,7 +103,7 @@ const Body = () => {
 
       <div id="section7">
         <TextHeading text={"Viewing Archived Projects"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           To access archived projects, simply go to the left sidebar where your
           projects are listed. Click on the three dots, and then choose 'Show
           Archived' to view all archived projects. You can repeat this process
@@ -114,25 +114,25 @@ const Body = () => {
           <Image src={Image3} alt="image" />
           <Image src={Image3} alt="image" />
         </div>
-        <p className="text-[#74757A] text-lg">
+        <p>
           For your projects, you can also view <br /> Tasks: This shows further
           subdivision of each aspect of the project broken down into smaller
           segments.
         </p>
         <Image src={Image5} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Files: This view consolidates all files related to your current
           project, contributed by various users, providing a centralized
           location for easy access to all project-related files.
         </p>
         <Image src={Image5} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Dashboard: The Dashboard provides a visual representation of your task
           statistics, offering insights based on various parameters such as
           statuses, priorities, tags, and assignees..
         </p>
         <Image src={Image5} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Automation : In Acedboard, Automations are predefined instructions or
           actions designed to execute automatically when specific conditions are
           met, streamlining your workflow and enhancing efficiency. You can
@@ -140,18 +140,18 @@ const Body = () => {
           ones to tailor your processes.
         </p>
         <Image src={Image5} alt="image" className="my-5" />{" "}
-        <p className="text-[#74757A] text-lg">
+        <p>
           Notifications: You can view all your notifications and how other users
           interact with you in this portion of your project.
         </p>
         <Image src={Image5} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Applications & Widgets: Explore various applications and additional
           widgets here, with the current inclusion being the timesheet tool.
           Expect the addition of more applications over time.
         </p>
         <Image src={Image5} alt="image" className="my-5" />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Task Timer: This feature allows you to be able to allocate time spent
           on task in your project.
         </p>
@@ -160,7 +160,7 @@ const Body = () => {
 
       <div id="section8">
         <TextHeading text={"Leaving & Deleting a Project"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           Leaving a project: After fulfilling your role in a project, you have
           the option to leave. Keep in mind that once you leave, access to
           project files and the ability to make changes will no longer be
@@ -171,7 +171,7 @@ const Body = () => {
 
       <div id="section9">
         <TextHeading text={"Deleting a Project"} />
-        <p className="text-[#74757A] text-lg">
+        <p>
           After successfully completing a project or determining its lack of
           viability, you have the option to delete it, relocating it to the
           trash bin. Exercise caution, as once a project is permanently deleted
