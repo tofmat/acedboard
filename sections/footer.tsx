@@ -85,11 +85,11 @@ const Footer = () => {
             >
               Subscribe to our newsletter
             </p>
-            <div className="flex mt-4 md:mt-6 items-end w-full bg-white">
+            <div className="flex mt-4 md:mt-6 items-end w-full">
               <input
                 type="text"
                 placeholder="Email Address"
-                className="w-full text-sm px-2 py-1 text-gray-700 border-b-2 border-gray-200 focus:outline-none"
+                className="w-full text-sm px-2 py-1 text-gray-700 border-b-2 border-gray-200 focus:outline-none bg-transparent"
               />
               <button
                 className={`py-3 md:py-3.5 px-4 md:px-5 rounded-t-xl text-sm bg-custom-gradient font-normal text-white`}
